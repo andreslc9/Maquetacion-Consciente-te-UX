@@ -1,0 +1,87 @@
+<div class="container-fluid">
+  <div class="row flex-nowrap">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+          <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+              <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                  <li class="nav-item">
+                      <a href="#" class="nav-link align-middle px-0">
+                          <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Username</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                          <i class="fs-4 bi bi-film"></i> <span class="ms-1 d-none d-sm-inline">Media</span> </a>
+                      <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                          <li class="w-100">
+                              <a href="/contenido" class="nav-link px-0"> <span class="ms-1 d-none d-sm-inline">Filter content</span></a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                          <i class="fs-4 bi bi-clock"></i> <span class="ms-1 d-none d-sm-inline">Alarms</span></a>
+                      <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                          <i class="fs-4 bi bi-file-bar-graph"></i> <span class="ms-1 d-none d-sm-inline">Statistics</span> </a>
+                          <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                      </ul>
+                  </li>
+              </ul>
+              <hr>
+              <div class="dropdown pb-4">
+                  <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                      <i class="fs-4 bi bi-bell"></i> <span class="ms-1 d-none d-sm-inline">Notifications</span> </a>
+                      <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                  </ul>
+                  <hr>
+                  <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                    <i class="fs-4 bi bi-gear"></i> <span class="ms-1 d-none d-sm-inline">Account</span> </a>
+                    <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                </ul>
+              </div>
+          </div>
+      </div>
+      <div class="col py-3">
+        <div class="cont-log">
+          <ul>
+            <form action="/"><button type="submit" class="btn btn-danger btn-block mb-4"><i class="fs-8 bi bi-escape"></i> Log Out</button></form>
+
+          </ul>
+        </div>
+          <h2 class="title">Consciente-te</h2>
+          <ul class="navega">
+            <li><button type="submit" class="btn menu-active">Personal Care</button></li>
+            <li><button type="submit" class="btn menu">Tips</button></li>
+            <li><button type="submit" class="btn menu">Routines</button><hr></li>
+          </ul>
+          <div>
+
+              <h4 class="subtitle">How do you feel today?</h4>
+            <div class="label-control">
+              <div class="form-outline mb-4">
+                <input type="text" id="form2Example2" class="form-control" placeholder="Please tell us what are you feeling today"/>
+              </div>
+            </div>
+
+            <div class="share">
+              <button type="submit" class="btn btn-primary btn-block mb-4">Share us</button>
+            </div>
+          </div>
+          <div class="options">
+            <div>
+              <ul>
+                <form action="/contenido"><ul><button type="submit" class="btn multimedia"><i class="bi bi-camera"></i>
+                  Mental health media</button></ul></form>
+                <ul><button type="submit" class="btn multimedia"><i class="bi bi-virus"></i>
+                  Reduce stress</button></ul>
+                <ul><button type="submit" class="btn multimedia"><i class="bi bi-folder-plus"></i>
+                  Other things</button></ul>
+              </ul>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>

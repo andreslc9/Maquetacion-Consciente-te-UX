@@ -1,0 +1,21 @@
+.form-outline {
+  margin-left: 40rem;
+  margin-right: 40rem;
+  min-width: 25rem;
+}
+
+.title {
+  align-items: center;
+  margin-top: 5rem;
+  color: #053248;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cont-form{
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,35 @@
+.form-outline {
+  margin-left: 47rem;
+  margin-right: 47rem;
+  min-width: 25rem;
+}
+
+.btn {
+  margin-left: 47rem;
+  margin-right: 47rem;
+  width: 24rem;
+  min-width: 20rem;
+}
+
+.cont-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.text-center .forgot {
+  margin-left: 47rem;
+  margin-right: 47rem;
+}
+
+.form{
+  width: 100%;
+}
+
+.image{
+  margin-top: 5rem;
+}
+
+.cont-form{
+  display: flex;
+  justify-content: center;
+}
